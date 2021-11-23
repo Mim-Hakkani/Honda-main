@@ -1,0 +1,139 @@
+/*---------------------------------- Google Fonts import -----------------------------------*/
+
+/*body all fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;1,600&display=swap');
+
+/*FaQ fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap');
+
+/*footer fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Manrope&display=swap');
+
+
+/*------------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------------------------
+
+	Template Name: Hero Honda Production
+	Template URI: http://www.hakkanimim.com
+	Description: Motor bike website template
+	Author: Golam Hakkami Mim
+	Author URI: http://www.hakkani-it.com
+	License: GNU General Public License version 3.0
+	License URI: http://www.gnu.org/licenses/gpl-3.0.html
+	Version: 3.0.0
+
+-----------------------------------------------------------------------------------
+
+	1. Typography
+	2. Header Area
+		2.1 Menu Area
+		2.2 Welcome Text 
+		2.3 Honda image
+	3. Fetured Bike section
+	4. Latest News
+	5. Happy Clints Area
+	6. FaQ Section
+	7. Honda addtion section
+	8. Why Choose Us 
+	8. Footer Area
+
+-----------------------------------------------------------------------------------*/
+
+/************** 1. Typography ************************/
+*{
+	margin: 0;
+	padding: 0;
+	outline: 0;
+}
+
+body{
+	font-family: 'Poppins', sans-serif;
+	
+	
+}
+
+h1{
+	font-size: 48px;
+	font-weight: 600;
+	line-height: 56px;
+}
+
+p{
+	font-size: 15px;
+	line-height: 26px;
+	font-weight: 400;
+	color: #6C6C6C;
+}
+/**************** 2. Header Area ********/
+
+.header-btn {
+	background-color:#E76F51;
+	padding: 8px 35px;
+	border: 1px solid #E76F51;
+	color: #fff;
+	border-radius: 5px;
+}
+.header-btn:hover{
+	background-color:#f39179;
+	transition: 1s;
+}
+.navbar-light .navbar-toggler-icon {
+    background-image: url("images/toglar.png")!important;
+}
+/**************** 3. Fetured Bike section ********/
+.borderr{
+	border: 1px solid #E76F51;
+	width: 6%;
+	margin:8px auto;
+}
+
+/**************** 4. Latest News Section ********/
+
+/************** 6. FaQ Section ************************/
+.accordion{
+	font-family: 'Inter', sans-serif;
+}
+.accordion h5{
+	line-height: 30px;
+	font-weight: 500;
+}
+.accordion p{
+	color:#7E848C;
+}
+
+/************** Honda addtion section************************/
+
+.honda-datails{
+
+	box-shadow: 0px 6px 15px #dcb09c;
+    display: inline-block;
+    width: 29%;
+    padding: 12px;
+    border-radius: 34%;
+	
+}
+/************** 8.Why Choose Us ************************/
+.icon{
+    height: 55px;
+    width: 55px;
+    background: #E76F51;
+    border-radius: 50%;
+}
+.icon i{
+	text-align: center;
+    display: block;
+    top: 15px;
+    position: absolute;
+    left: 30px;
+    color: #fff;
+    font-size: 25px;
+}
+.text h3{
+	font-weight: 400;
+}
+
+/************** footer section ************************/
+footer{
+	font-family: 'Manrope', sans-serif;
+}
