@@ -1,0 +1,48 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 280px) and (max-device-width : 653px) {
+
+    h1{
+        font-size: 25px;
+    
+    }
+    .header-text{
+        width: 100%;
+    }
+    .card-title{
+        font-size: 17px;
+    }
+    p{
+        font-size: 14px;
+    }
+    .accordion-header h5{
+        font-size: 14px;
+    line-height: 23px;
+    font-weight: 500;
+    }
+    
+    .accordion p{
+        font-size: 12px;
+    }
+    .honda-datails {
+        box-shadow: rgb(220, 176, 156) 0px 6px 15px;
+        display: inline-block;
+        width: 90%;
+        padding: 28px;
+        border-radius: 34%;
+    }
+}
+/* medium devices (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 654px) and (max-device-width : 1159px){
+    .header-text{
+        width: 100%;
+    }
+    .honda-datails {
+        box-shadow: rgb(220, 176, 156) 0px 6px 15px;
+        display: inline-block;
+        width: 70%;
+        padding: 28px;
+        border-radius: 34%;
+    }
+}
+
+
